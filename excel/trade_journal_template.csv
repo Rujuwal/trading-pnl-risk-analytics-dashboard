@@ -1,0 +1,3 @@
+trade_id,strategy_name,trade_date,close_date,symbol,asset_class,side,quantity,entry_price,exit_price,point_value,fees,risk_usd,capital_used_usd,delta_exposure,gamma_exposure,vega_exposure,theta_exposure,implied_vol,notes
+TEMPLATE-001,Momentum Breakout,2026-06-01,2026-06-03,ES1!,Future,LONG,2,5300,5345,50,12,4500,530000,530000,0,0,0,,Example closed futures trade
+
