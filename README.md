@@ -19,13 +19,13 @@ This project builds a trading desk style analytics stack:
 
 ```text
 .
-├── data/                         # SQLite database is generated here
-├── dashboard/                    # Python dashboard app
-├── excel/                        # Optional trade journal template
-├── outputs/dashboard/            # Dashboard-ready CSV exports
-├── sql/                          # Database schema and useful SQL questions
-├── src/                          # Python calculation pipeline
-└── tests/                        # Focused analytics tests
+|-- data/                         # SQLite database is generated here
+|-- dashboard/                    # Python dashboard app
+|-- excel/                        # Optional trade journal template
+|-- outputs/dashboard/            # Dashboard-ready CSV exports
+|-- sql/                          # Database schema and useful SQL questions
+|-- src/                          # Python calculation pipeline
+`-- tests/                        # Focused analytics tests
 ```
 
 ## Step 1: Create the Analytics Dataset
@@ -53,7 +53,7 @@ This creates:
 ## Step 2: Validate the Calculations
 
 ```powershell
-pytest
+python -m pytest
 ```
 
 ## Step 3: Run the Python Dashboard
